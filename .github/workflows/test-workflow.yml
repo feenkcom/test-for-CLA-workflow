@@ -1,0 +1,10 @@
+name: Call a reusable workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  call-workflow:
+    uses: feenkcom/feenkGitHubWorkflows/.github/workflows/checkForContributorLicenseAgreementSignature.yml@d22061772bf1e67688a5f47ea08601934563fde8
