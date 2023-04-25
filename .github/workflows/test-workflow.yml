@@ -7,4 +7,4 @@ on:
 
 jobs:
   call-workflow:
-    uses: feenkcom/feenkGitHubWorkflows/.github/workflows/checkForContributorLicenseAgreementSignature.yml@d22061772bf1e67688a5f47ea08601934563fde8
+    uses: feenkcom/feenkGitHubWorkflows/.github/workflows/checkForContributorLicenseAgreementSignature.yml@main
